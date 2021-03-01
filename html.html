@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>html</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+<h1>html</h1>
+
+<h3>목차</h3>
+
+<ul id="except">
+  <li><a href="#c1">html이란 무엇인가</a></li>
+  <li><a href="#c2">실습환경 조성하기</a></li>
+  <li><a href="#c3">기본문법, '태그'</a></li>
+  <li><a href="#c4">통계에 기반한 학습</a></li>
+  <li><a href="#c5">&ltbr&gt vs &ltp&gt</a> </li>
+  <li><a href="#c6">웹표준의 중요성</a></li>
+  <li><a href="#c7">최후의 문법, '속성' - &ltimg&gt</a></li>
+  <li><a href="#c8">부모자식과 목록 태그</a></li>
+  <li><a href="#c9">html문서의 구조</a></li>
+  <li><a href="#c10">태그의 제왕 &lta&gt</a></li>
+  <li><a href="#c11">웹문서를 엮어 웹사이트를 만드는 법</a></li>
+  <li><a href="#c12">서버와 클라이언트</a></li>
+  <li><a href="#c13">웹 호스팅 방식</a></li>
+  <li><a href="#c14">웹 서버 방식</a></li>
+  <li><a href="#c15">웹 서버와 http</a></li>
+  <li><a href="#c16">웹 서버와 브러우저의 통신</a></li>
+</ul>
+
+<div id="bdline"></div>
+
+<a name="c1"></a>
+<div class="contents">
+
+ <h4>html이란 무엇인가</h4>
+
+  <p>
+
+    html이란 웹페이지를 제작하는데 사용되는 언어이다. 웹 상에 구현되는 것은 모두 html로 이루어져 있다.<br>
+  프로그래밍 언어 중 <b>가장 쉽지만, 가장 중요한</b> 언어이다.</p>
+
+</div>
+
+<div class="space"></div>
+  <a name="c2"></a>
+<div class="contents">
+
+  <h4>실습환경 조성하기</h4>
+
+  <p>
+    필요한 것은 웹브라우저와 에디터이다. 웹브라우저는 되도록 크롬을 사용하자.<br>
+    에디터는 아톰(atom)을 사용할 것이다. <a href="https://atom.io" target="-_blank">아톰 공식홈페이지</a>에서 다운받을 수 있다.<br>
+    프로젝트용 폴더를 하나 새로 만들고 File-Open Folder...를 하면 기본 세팅이 끝난다.
+  </p>
+
+</div>
+
+<div class="space"></div>
+<a name="c3"></a>
+<div class="contents">
+  <h4>기본문법, '태그'</h4>
+
+  <p>
+    html은 기본 문법인 태그로 이루어져 있다. 태그의 종류는 두가지다.<br>
+    태그는 1.내용을 감싸는 태그, 2.홀로 쓰이는 태그로 구분된다.<br>
+    어떤 태그를 잘 모르겠다면 구글에 'html OO tag'로 검색해보자.
+  </p>
+</div>
+
+<div class="space"></div>
+<a name="c4"></a>
+<div class="contents">
+  <h4>통계에 기반한 학습</h4>
+
+  <p>
+    통계를 통해 빈번히 사용되는 태그들 위주로 학습하는 것이 효율적이다.<br>
+    모르는 태그라 하더라도 1분이면 찾을 수 있기 때문이다.<br>
+    그러니 <a href="https://www.advancedwebranking.com/html/"  target="_blank">여기</a>에 나오는 통계를 활용하여 사용빈도가 높은 태그 위주로 학습해두자.
+  </p>
+</div>
+
+<div class="space"></div>
+<a name="c5"></a>
+<div class="contents">
+  <h4>&ltbr&gt vs &ltp&gt</h4>
+
+  <p>html에게는 '기능 vs 의미'에서 승자는 <b>의미</b>이다. <br>
+    웹에서 '접근성'은 매우 중요한 요소이다. <br>
+    먼나라 이웃도, 시각장애인도 접근할 수 있어야 한다.<br>
+    그러기에 문단 줄바꿈을 할 때 &ltbr&gt이 아니라 &ltp&gt을 사용하는 것이 바람직하다.<br>
+    이외에도 웹페이지를 작성할 때 항상 의미에 맞는 태그를 사용하도록 하자.
+  </p>
+</div>
+
+<div class="space"></div>
+<a name="c6"></a>
+<div class="contents">
+  <h4>웹표준의 중요성</h4>
+
+  <p>
+    웹표준을 준수하며 알맞은 태그로 페이지를 작성해야 한다.<br>
+    그래야 검색엔진에서 상위노출될 가능성이 높아지기 때문이다.<br>
+    상위에 노출되기 위해 광고비를 지출할 필요가 없다.
+  </p>
+</div>
+
+<div class="space"></div>
+<a name="c7"></a>
+<div class="contents">
+  <h4>최후의 문법, '속성' - &ltimg&gt</h4>
+
+  <p>
+    이미지 태그 &ltimg&gt에서 이미지 출처를 가져오려면 '속성'이라는 개념을 알아야 한다.<br>
+    속성은 <b>src=""</b>의 형태로 작성한다.<br>
+    속성 값을 큰따옴표로 입력한다는 점, 순서는 상관이 없다는 점이 특징이다.
+  </p>
+  <p><b>tip</b>으로 &ltimg&gt의 중요한 속성은 alt="(이미지 설명)"이다.<br>
+    시각장애인들도 사진에 대한 정보를 얻을 수 있기 때문에 검색엔진에게 좋은 점수를 받는다.
+  </p>
+</div>
+
+<div class="space"></div>
+<a name="c8"></a>
+<div class="contents">
+  <h4>부모자식과 목록태그</h4>
+
+  <p>
+    속을 감싸고 있는 태그를 부모태그, 속을 자식태그라 부른다.<br>
+    대표적인 태그는 목록태그, &ltol&gt과 &ltul&gt.<br></p>
+    <h5>예시</h5>
+<pre>&ltul&gt
+          &ltli&gt &lt/li&gt
+          &ltli&gt &lt/li&gt
+          &ltli&gt &lt/li&gt
+ &lt/ul&gt</pre>
+ <br>
+
+</div>
+
+<div class="space"></div>
+<a name="c9"></a>
+<div class="contents">
+
+  <h4>html문서의 구조</h4>
+
+    <h5>표준 html 문서 구조</h5>
+
+<pre>&lt!DOCTYPE html&gt
+  &lthtml&gt
+
+        &lthead&gt
+                                &ltmeta charset="utf-8"&gt
+                                &lttitle&gt &lt/title&gt
+        &lt/head&gt
+
+        &ltbody&gt
+
+        &lt/body&gt
+
+&lt/html&gt
+ </pre>
+
+ <br>
+</div>
+
+<div class="space"></div>
+<a name="c10"></a>
+<div class="contents">
+
+  <h4>태그의 제왕 &lta&gt</h4>
+
+    <p>&lta href="#"&gt는 다른 웹페이지와 연결해주는 가장 중요한 태그이다.<br>
+      새탭으로 열고 싶다면 target="_blank" 라는 속성을 추가하면 된다.<br>
+      마우스를 올리기만 했을 때 정보를 표시하려면 title="(설명)" 속성을 추가하면 된다.
+    </p>
+
+</div>
+
+<div class="space"></div>
+<a name="c11"></a>
+<div class="contents">
+
+  <h4>웹문서를 엮어 웹사이트를 만드는 법</h4>
+
+    <p>앵커태그를 이용해서 사이트를 엮는다.<br>
+      기본적으로 메인 페이지를 index.html로 하여 하위 페이지들을 연결시킨다.
+    </p>
+
+</div>
+
+<div class="space"></div>
+<a name="c12"></a>
+<div class="contents">
+
+  <h4>서버와 클라이언트</h4>
+
+    <p>서버(sever)는 말 뜻대로 '제공자'이다. 웹페이지를 요청자(client)에게 보내주는 서비스를 해주는 것이 서버이다.<br>
+      그러므로 우리가 작성한 페이지를 웹 서버에 업로드 해놓아야 타인이 내 웹 페이지를 열람할 수 있다.<br>
+      그렇게 하는데는 <b>1.웹호스팅 방식 2. 웹서버를 직접 열기</b>의 방법이 있다.하지만 보통 웹호스팅을 많이 이용한다.
+    </p>
+
+</div>
+
+<div class="space"></div>
+<a name="c13"></a>
+<div class="contents">
+
+  <h4>웹 호스팅 방식</h4>
+
+    <p>무료 웹 호스팅 서비스를 제공하는 <a href="https://github.com/">깃허브</a>를 이용할 것이다.<br>
+      자세한 방법은 아래 생활코딩 영상을 참고.
+    </p>
+    <p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/n1wvs7xuUYk"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+     gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
+
+<div class="space"></div>
+<a name="c14"></a>
+<div class="contents">
+
+  <h4>웹 서버 방식</h4>
+
+    <p>무료 서버프로그램 <a href="https://httpd.apache.org/docs/2.4/en/platform/windows.html">Apache</a>를 이용할 것이다.<br>
+      설치 방법이 조금 까다로우니 아래 생활코딩 영상을 보며 따라해보자.
+    </p>
+    <p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Bvzzee7-kuQ"
+     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+     gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+     <p><iframe width="560" height="315" src="https://www.youtube.com/embed/had7IqJHEKM"
+       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+       gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
+
+<div class="space"></div>
+<a name="c15"></a>
+<div class="contents">
+
+  <h4>웹 서버와 http</h4>
+
+    <p>대부분의 웹페이지 주소 앞에 'https://'가 있는 것을 볼 수있다.<br>
+      http란 hyper text(웹페이지) transfer(전송) protocol(약속)의 약자이다.<br>
+      즉, 웹서버와 웹브라우저가 웹페이지를 서로 주고 받기 위한 약속을 의미한다.
+    </p>
+
+</div>
+
+<div class="space"></div>
+<a name="c16"></a>
+<div class="contents">
+
+  <h4>웹 서버와 브러우저의 통신</h4>
+
+    <p>수많은 웹페이지 중, 내가 원하는 웹페이지만을 받아내려면 주소가 필요하다.<br>그 주소가 바로 <b>IP주소</b>이다.<br>
+      웹서버를 설치한 컴퓨터(본인 컴퓨터)의 ip주소를 확인하려면 <br>'네트워크 오른쪽 클릭'-'네트워크 및 인터넷 설정'-'연결 속성 변경'에서 IPv4주소를 확인하면 된다.
+    </p>
+
+</div>
+
+  </body>
+</html>
