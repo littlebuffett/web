@@ -41,6 +41,10 @@ pre {
   padding-right: 50px;
 }
 
+a {
+  text-align: center;
+}
+
 #except li {
   display: block;
   font-weight: normal;
