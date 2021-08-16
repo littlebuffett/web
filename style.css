@@ -4,8 +4,8 @@
 
 h1 {
   text-align: center;
-  margin-bottom:80px;
-  margin-top: 200px;
+  margin-bottom:50px;
+  margin-top: 80px;
 }
 
 p {
@@ -41,14 +41,13 @@ pre {
   padding-right: 50px;
 }
 
-div {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
 a {
   text-decoration:none;
 }
+
+a:hover   { text-decoration:underline; color:#blue }
+
+a:visited { text-decoration:none; color:#blue }
 
 #except li {
   display: block;
@@ -70,6 +69,12 @@ a {
   width: 450px;
   height: 10px;
   margin: 50px auto;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 600px 1fr;
+
 
 }
 
@@ -81,7 +86,7 @@ a {
 
 .img {
   width: 600px;
-  margin: 0 auto;
+  margin: 120px 150px;
   display: block;
 }
 
@@ -90,4 +95,14 @@ a {
   margin-bottom: 600px;
   display: block;
 
+}
+
+.mainlink{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.title {
+  margin-top: 350px;
 }
