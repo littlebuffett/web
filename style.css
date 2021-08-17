@@ -41,8 +41,14 @@ pre {
   padding-right: 50px;
 }
 
+span {
+  font-size:1.5em;
+  color: blue;
+}
+
 a {
   text-decoration:none;
+  color:#blue
 }
 
 a:hover   { text-decoration:underline; color:#blue }
@@ -74,9 +80,60 @@ a:visited { text-decoration:none; color:#blue }
 #grid {
   display: grid;
   grid-template-columns: 600px 1fr;
+}
 
+#rightlink{
+  margin-left: 50px;
+}
+
+
+@media(max-width:1400px){
+#grid{
+    display: block;
+  }
+#grid .title {
+    margin-top:0px;
+    text-align:center;
+  }
+
+#grid .img{
+  margin-top: 30px;
+}
 
 }
+
+@media(max-width:600px){
+#grid{
+    display: block;
+  }
+#grid .title {
+    margin-top:0px;
+    text-align:center;
+  }
+
+#grid .img{
+  margin-top: 100px;
+}
+
+#grid img{
+  width: 350px;
+}
+
+#grid h1{
+  margin-top: 70px;
+  font-size: 1.2em;
+}
+
+#grid span{
+  font-size: 1.1em;
+}
+
+#rightlink{
+  margin-left: 25px;
+}
+
+}
+
 
 .space {
   width: 450px;
@@ -85,9 +142,9 @@ a:visited { text-decoration:none; color:#blue }
 }
 
 .img {
-  width: 600px;
-  margin: 120px 150px;
   display: block;
+  text-align: center;
+  margin-top: 160px;
 }
 
 .contents {
